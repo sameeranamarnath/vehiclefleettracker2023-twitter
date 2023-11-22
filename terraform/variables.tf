@@ -1,6 +1,6 @@
 variable "aws_vpc_id" {
   type        = string
-  description = "AWS VPC ID deployed from network repo"
+  description = "AWS VPC ID  from network repo"
   default     = "vpc-004cb78e558bde3ed"
 }
 
