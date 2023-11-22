@@ -1,7 +1,6 @@
 import { describeDynamoDBTable,getAllScanResults,scanDynamoDBTable, updateDynamoDBTweet,sqsSendMessage } from "./aws"
 import dotenv from "dotenv";
 import { Vendor } from "./types/vendor";
-dotenv.config();
 import { Scraper } from "@the-convocation/twitter-scraper";
 import express from "express";
 import { Rule, TweetFormatted } from "./types/twitter";
@@ -39,6 +38,8 @@ export async function getScraper(
 const init= async ()=> {
 
 console.log("init");
+dotenv.config();
+
  //   let res=await describeDynamoDBTable("vendors")
  //console.log(res);
  //const scanIterator = await scanDynamoDBTable("vendors",5);
