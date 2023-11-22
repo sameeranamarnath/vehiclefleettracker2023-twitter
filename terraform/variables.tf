@@ -42,7 +42,7 @@ variable "dynamodb_vendor_table_name" {
 }
 
 variable "sqs_queue_name" {
-  description = "Name for SQS queue"
+  description = " SQS queue"
   default     = "vendor-twitter-queue"
 }
 
