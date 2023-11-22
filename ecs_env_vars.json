@@ -1,0 +1,27 @@
+[
+  { "name": "TWITTER_API_KEY", "value": "3kOj953Y8zvgL8r8QK3WiCU1D" },
+  {
+    "name": "TWITTER_API_KEY_SECRET",
+    "value": "CcxypEAsVSIokzCjCdbPUxiJSRNiPd1TEvz3nBWSs4bB03U3Pf"
+  },
+  {
+    "name": "TWITTER_API_BEARER_TOKEN",
+    "value": "AAAAAAAAAAAAAAAAAAAAAP2tqQEAAAAAhu0w8WZ4SxFHEN%2BITgdjlc5miRE%3DqjbJ0quHqYf6SaBwWmhGW5YHbpHUzH7uPcgHvI8xHFR62DrGib"
+  },
+  { "name": "AWS_SQS_URL", "value": "" },
+  { "name": "AWS_VENDORS_TABLE_NAME", "value": "vendors" },
+  { "name": "PORT", "value": "80" },
+  { "name": "AWS_REGION", "value": "us-east-1" },
+  {
+    "name": "TWITTER_OAUTH_CLIENT_ID",
+    "value": "ZG5yWkxJdzM1MmlzSjl6M3VnUTU6MTpjaQ"
+  },
+  {
+    "name": "TWITTER_OAUTH_CLIENT_SECRET",
+    "value": "G1HJVJCu6Yw7F8qGu4wm4nE6OivbXGHqo3n4DxKKYCnabBiMp2"
+  },
+  { "name": "TWITTER_USERNAME", "value": "devcheckeract" },
+  { "name": "TWITTER_PASSWORD", "value": "devcheckeramarnath" },
+  { "name": "TWITTER_EMAIL", "value": "sameeraamarshah@gmail.com" },
+  { "name": "PROXY_URL", "value": "https://corsproxy.io/" }
+]
