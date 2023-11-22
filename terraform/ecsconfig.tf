@@ -37,7 +37,7 @@ resource "aws_ecs_task_definition" "td" {
   [
     {
       "name": "${var.app_name}-td",
-      "image": "${local.account_id}.dkr.ecr.us-east-1.amazonaws.com/twitter:${var.image_tag}",
+      "image": "${local.account_id}.dkr.ecr.us-east-1.amazonaws.com/twitterservice:${var.image_tag}",
       "entryPoint": [],
       "environment": ${data.aws_s3_bucket_object.secrets.body},
       "essential": true,
