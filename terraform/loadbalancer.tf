@@ -28,7 +28,7 @@ resource "aws_alb" "alb" {
 }
 
 resource "aws_lb_target_group" "target_group" {
-  name        = var.app_name
+  name        = var.lb_name
   port        = 80
   protocol    = "HTTP"
   target_type = "ip"
