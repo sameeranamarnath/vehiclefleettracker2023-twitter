@@ -20,7 +20,7 @@ resource "aws_security_group" "lb_sg" {
 }
 
 resource "aws_alb" "alb" {
-  name               = var.lb_name
+  name               = var.app_name
   internal           = false
   load_balancer_type = "application"
   subnets            = var.aws_public_subnet_ids
@@ -28,7 +28,7 @@ resource "aws_alb" "alb" {
 }
 
 resource "aws_lb_target_group" "target_group" {
-  name        = var.lb_name
+  name        = var.app_name
   port        = 80
   protocol    = "HTTP"
   target_type = "ip"

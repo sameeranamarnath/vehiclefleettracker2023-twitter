@@ -20,7 +20,7 @@ variable "aws_region" {
 }
 
 variable "app_name" {
-  default = "vehiclefleettracker2023-networkconfig"
+  default = "vehiclefleettracker2023"
 }
 variable "lb_name" {
   default = "vehiclefleettracker2023-lb"
