@@ -42,7 +42,7 @@ jobs:
           AWS_IMAGE_TAG: ${{ github.sha}}
         run: |
           docker build -t ${{steps.build-repo-ecr.outputs.repository-uri}}:$AWS_IMAGE_TAG .
-          docker push  ${{steps.build-repo-ecr.outputs.repository-uri}}:$AWS_IMAGE_TAG .
+          docker push  ${{steps.build-repo-ecr.outputs.repository-uri}}:$AWS_IMAGE_TAG 
 
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v2.0.3
