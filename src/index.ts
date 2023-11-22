@@ -8,7 +8,6 @@ import healthcheck from './healtcheck';
 import { getAllRules } from "./twitter";
 import { HttpsProxyAgent } from "https-proxy-agent";
 import { getTweets } from "./twitter";
-import { TwitterOpenApi } from "twitter-openapi-typescript";
 
 export interface ScraperTestOptions {
     /**
