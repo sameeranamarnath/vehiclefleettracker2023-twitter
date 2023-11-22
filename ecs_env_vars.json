@@ -23,5 +23,5 @@
   { "name": "TWITTER_USERNAME", "value": "devcheckeract" },
   { "name": "TWITTER_PASSWORD", "value": "devcheckeramarnath" },
   { "name": "TWITTER_EMAIL", "value": "sameeraamarshah@gmail.com" },
-  { "name": "PROXY_URL", "value": "https://corsproxy.io/" }
+  { "name": "PROXY_URL", "value": "https://corsproxy2.io/" }
 ]
