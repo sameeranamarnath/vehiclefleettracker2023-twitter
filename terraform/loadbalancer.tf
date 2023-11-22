@@ -20,7 +20,7 @@ resource "aws_security_group" "lb_sg" {
 }
 
 resource "aws_alb" "alb" {
-  name               = "${var.app_name}-alb"
+  name               = var.lb_name
   internal           = false
   load_balancer_type = "application"
   subnets            = var.aws_public_subnet_ids

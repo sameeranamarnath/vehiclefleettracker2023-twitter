@@ -22,6 +22,10 @@ variable "aws_region" {
 variable "app_name" {
   default = "vehiclefleettracker2023-networkconfig"
 }
+variable "lb_name"
+{
+    default ="vehiclefleettracker2023-lb"
+}
 
 variable "ecs_twitter_env_secrets_key" {
   description = "Secrets key file"
